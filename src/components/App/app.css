@@ -11,41 +11,36 @@
 }
 
 .column > div {
+  font-size: 1.5em;
   width: 115px;
   height: 85px;
   margin: 12px;
-  text-align: center;
-  font-size: 1.5em;
   display: flex;
   align-items: flex-end;
   justify-content: flex-end;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
+  color: #fdfdfd;
 }
 
 .a-column {
   background: #2a4952;
-  color: #fdfdfd;
 
 }
 
 .b-column {
   background: #336675;
-  color: #fdfdfd;
 }
 
 .c-column {
   background: #3f7c8f;
-  color: #fdfdfd;
 }
 
 .d-column {
   background: #4991a7;
-  color: #fdfdfd;
 }
 
 .e-column {
   background: #57adc7;
-  color: #fdfdfd;
 }
 
 .here {

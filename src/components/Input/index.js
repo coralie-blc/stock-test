@@ -2,7 +2,7 @@ import React from 'react';
 import SFunction from "../../StockossTest";
 import Position from 'src/components/Position'
 import 'bootstrap/dist/css/bootstrap.min.css';
-import { Nav, NavDropdown, Button, Navbar, Form, FormControl} from 'react-bootstrap';
+import { Form, FormControl} from 'react-bootstrap';
 
 class Input extends React.Component {
   constructor(props) {
