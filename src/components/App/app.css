@@ -1,0 +1,69 @@
+.background {
+  display: flex;
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.column {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid grey;
+}
+
+.column > div {
+  width: 115px;
+  height: 85px;
+  margin: 12px;
+  text-align: center;
+  font-size: 1.5em;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
+}
+
+.a-column {
+  background: #2a4952;
+  color: #fdfdfd;
+
+}
+
+.b-column {
+  background: #336675;
+  color: #fdfdfd;
+}
+
+.c-column {
+  background: #3f7c8f;
+  color: #fdfdfd;
+}
+
+.d-column {
+  background: #4991a7;
+  color: #fdfdfd;
+}
+
+.e-column {
+  background: #57adc7;
+  color: #fdfdfd;
+}
+
+.here {
+  border: red 3px solid;
+}
+
+.form-inline {
+  justify-content: center;
+  margin-top: 2em;
+}
+
+.result {
+  text-align: center;
+  font-size: 1.2em;
+  font-style: bold;
+  margin-top: 1em;
+}
+
+.error {
+  color: red;
+}
